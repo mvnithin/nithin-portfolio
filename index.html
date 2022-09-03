@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Poppins&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9e6656179e.js" crossorigin="anonymous"></script>
+   
+<title>Nithin</title>
+</head>
+<body> 
+    <!-- Header starts -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/nithinlogo2.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span style="color:#ff004f;">Nithin</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- Header ends -->
+
+    <!-- About starts -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Nithinfinal.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Hello Everyone I am Nithin I love Problem solving using Python and C and Reprsent Data in a meaningful way.Also,I like pushing myself and taking up new challanges.I'm a Freshman pursuing Electronics and Communication Engineering at KRCT.I am always redy to have new experiences and learn new things.I find the idea of creating value for people and impacting the world through my work gratifying.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link">Skills</p>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span style="color:#b54769; font-size: 14px;">Web Development</span><br>HTML,CSS,BOOTSTRAP,MYSQL</li><br>
+                            <li><span style="color:#b54769; font-size: 14px;">Software Development</span><br>PYTHON,C,JAVA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About ends -->
+
+    <!--Service starts-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                 <div>
+                    
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I can build interacting Web application with clean code in accoradance with your requirements.</p>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Software Development</h2>
+                    <p>I can develop Software in All Windows Platforms with clean code in accoradance with your requirements.</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--Service ends-->
+    <!--Portfolio starts-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="services-list">
+                 <div>
+                    <img src="images/EmployeeManagement.jpg" alt="" style="width: 100%;">
+                    <p style="font-size:25px;">Employee Database Management</p>
+                 </div>
+                 <div>
+                    <img src="images/icecream.png" alt=""  style="width: 100%;">
+                    <p style="font-size:25px;">Page using HTML and CSS</p>
+                 </div>
+                 <div>
+                    <img src="images/voiceassistant.jpg" alt=""  style="width: 100%;">
+                    <p style="font-size:25px;">Voice Assistant using pyttsx3 in Python</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio ends-->
+    <!-- contact starts -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:navic128@gmail.com">navic128@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/nithin__mv/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Nithin79674204?t=RG3SKzJWUdkwuI1TayoF-A&s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://t.me/Nithin_678" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <input class="btn btn-primary" type="submit" value="Submit" style="padding-top: 12; padding-bottom:12;pa">
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright reserved &#169; Nithin</p>
+    </div>
+    
+    <!-- java script -->
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>   
+</html> 
